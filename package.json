@@ -1,0 +1,30 @@
+{
+  "name": "statistic_covid19",
+  "version": "1.0.0",
+  "description": "Statistic COVID19",
+  "main": "appBot.js",
+  "dependencies": {
+    "covid19-api": "^1.2.1",
+    "dotenv": "^8.2.0",
+    "telegraf": "^3.38.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha",
+    "start": "nodemon appBot.js"
+  },
+  "engines": {
+    "node": "12.21.0",
+    "nodemon": "2.0.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/workTask/statistic_COVID19.git"
+  },
+  "author": "Frantsuh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/workTask/statistic_COVID19/issues"
+  },
+  "homepage": "https://github.com/workTask/statistic_COVID19#readme"
+}
